@@ -1,0 +1,98 @@
+
+.channels 
+{
+    float: left;
+    width: 100%;
+    color: white;
+}
+.channels td {
+    position: relative;
+    padding:0px;
+    font-size: 11px;
+    font-family: verdana;
+    width: 10px;
+    text-align: left;
+}
+.channels td input
+{
+    background: transparent;
+    border: 0px;
+
+    color: white;
+}
+.import 
+{
+    float: left;
+    width: 100%;
+    color: white;
+
+}
+.import tr td 
+{
+    text-align: left;
+}
+.menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight:bold;
+    z-index: 1;
+    width: 55px;
+
+}
+.menu ul li{
+
+    background: #191919 url("./skins/images/img1.gif") repeat-x;
+    text-align: center;
+}
+.menu ul li ul{
+    display: none;
+
+    text-align: center;
+}
+.menu li:hover ul 
+{
+
+    position: absolute;
+    display: block; 
+}
+
+table .context 
+{
+    position: relative;
+    background-color: rgb(100, 100, 100);
+}
+.change 
+{
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    width: 480px;
+}
+
+.change td
+{
+    text-align: left;
+    vertical-align: top;
+    width: 240px;
+}
+
+
+.change  input
+{
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    border-radius: 2px;
+    border: 1px;
+
+}
+caption 
+{
+    padding: 0px;
+    margin: 0px;
+    font: bold 150%/100% Georgia, "Century Schoolbook L", Serif;;
+    position: relative;
+    text-align: left;
+}
